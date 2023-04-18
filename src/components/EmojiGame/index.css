@@ -1,0 +1,54 @@
+/* Write your code here. */
+.container {
+  padding: 1rem;
+  background-image: linear-gradient(#9796f0, #fbc7d4);
+  font-family: 'roboto';
+  text-align: center;
+}
+.emoji-container {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+.emojisection {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skted {
+  color: rgb(37, 243, 1);
+  background-color: black;
+  font-weight: 200;
+  font-family: 'monoton';
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 567px) {
+  .emoji-container {
+    grid-template-columns: auto auto auto;
+    gap: 7px;
+    padding: 5px;
+  }
+  .emojisection {
+    padding: 8px;
+  }
+  .container {
+    font-size: 15px;
+    color: rgb(154, 8, 25);
+  }
+}

@@ -1,0 +1,30 @@
+/* Write your code here. */
+li {
+  list-style: none;
+  background-color: #ffffff33;
+  border: 1px solid #ffffff30;
+  border-radius: 15px;
+  max-width: fit-content;
+}
+
+.emojicard {
+  display: flex;
+  place-items: center;
+  padding: 10px;
+}
+img {
+  width: 100%;
+}
+
+.emoj-btn {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    width: 100%;
+  }
+}
